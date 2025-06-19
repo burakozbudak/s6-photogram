@@ -15,9 +15,6 @@ function App() {
       - alttaki kodda place ve setPlace'i kendi verdiğin isimlerle değiştir
       - kodu yorumdan çıkar
       */
-    const [posts, setPosts] = useState(sampleData);
-    const place = posts;
-    setPlace(place);
     const copyState = [...place];
     const clappedItem = copyState.filter((item) => item.id === postId)[0];
     clappedItem.claps = clappedItem.claps + 1;
@@ -60,7 +57,6 @@ function App() {
         - className: page-footer
         - İçerik: "Made with ❤️ by Your Name"
       */}
-      <PostList posts={posts} onClap={handleClap} />
       <footer className="page-footer">
         <p>
           Made with ❤️ by <a href="https://github.com/">Your Name</a>

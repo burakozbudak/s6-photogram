@@ -1,5 +1,5 @@
 /* Bu dosyada değişiklik yapma */
-import Post from "./Post";
+import Post from './Post';
 
 export default function PostList(props) {
   const { items, clapAction } = props;

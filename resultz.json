@@ -1,9 +1,9 @@
 {
-  "stats": "0 passed, 7 failed out of 7",
+  "stats": "1 passed, 6 failed out of 7",
   "tests": [
     {
       "name": "PostList componentı import edilip kullanılmış mı?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "PostList componentına doğru data propsu iletilmiş mi?",
